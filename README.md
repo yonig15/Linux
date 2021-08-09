@@ -5,6 +5,7 @@ This project is for the DevOps Bootcamp for
 **Commands used in the videos**
 
 ***Video: Basic Linux Commands (CLI - Part 2)***
+
 General Operations
 - `clear` = Clears the terminal
 
