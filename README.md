@@ -66,6 +66,7 @@ Execute commands as superuser
 <details>
 <summary>Video: Package Manager - Installing Software on Linux</summary>
 <br />
+
 APT Package Manager:
 - `sudo apt search [package_name]` = Search for a given package
 - `sudo apt install [package_name]` = Install a given package
@@ -87,6 +88,7 @@ SNAP Package Manager:
 <details>
 <summary>Video: Working with Vim Editor</summary>
 <br />
+
 Install Vim, if it's not available:
 - `sudo apt install vim` = Search for a given package
 
@@ -121,7 +123,8 @@ Vim Commands:
 <details>
 <summary>Video: Linux Accounts & Groups (Users & Permissions Part 1)</summary>
  <br />
-Locations of Access Control Files:<br />
+
+**Locations of Access Control Files:**
 - /etc/passwd
 - /etc/shadow
 - /etc/group
