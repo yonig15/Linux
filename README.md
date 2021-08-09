@@ -6,7 +6,7 @@ This project is for the DevOps Bootcamp for "Operating Systems & Linux Basics"
 
 <details>
 <summary>Video: Basic Linux Commands (CLI - Part 2)</summary>
-
+<br />
 General Operations
 - `clear` = Clears the terminal
 
@@ -64,7 +64,7 @@ Execute commands as superuser
 
 <details>
 <summary>Video: Package Manager - Installing Software on Linux</summary>
-
+<br />
 APT Package Manager:
 - `sudo apt search [package_name]` = Search for a given package
 - `sudo apt install [package_name]` = Install a given package
@@ -87,7 +87,7 @@ SNAP Package Manager:
 
 <details>
 <summary>Video: Working with Vim Editor</summary>
-
+<br />
 Install Vim, if it's not available:
 - `sudo apt install vim` = Search for a given package
 
@@ -121,13 +121,12 @@ Vim Commands:
 
 <details>
 <summary>Video: Linux Accounts & Groups (Users & Permissions Part 1)</summary>
- 
-Location of Access Control Files:
+ <br />
+**Locations of Access Control Files:**
 - /etc/passwd
 - /etc/shadow
 - /etc/group
 
-Commands:
 - `sudo adduser [username]` = Create a new user
 - `sudo passwd [username]` = Change password of a user
 - `su - [username]` = Login as username ('su' = short for substitute or switch user)
@@ -136,6 +135,7 @@ Commands:
 - `sudo groupadd [groupname]` = Create new group (System assigns next available GID)
 - `sudo adduser [username]` = Switch to Insert Mode
 
+**Note 2 different User/Group commands:**
 `adduser`, `addgroup`, `deluser`,  `delgroup` = interactive, more user friendly commands<br />
 `useradd`, `groupadd`,  `userdel`,  `groupdel` = low-level utilities, more infos need provided by yourself
 
