@@ -191,6 +191,21 @@ Change multiple permissions for an owner
 - `sudo chmod g=rwx config.yaml` = Assign 'read write execute' permissions to the group
 - `sudo chmod g=r-- config.yaml` = Assign only 'read' permission to the group
 
+Changing permissions with numeric values
+_Set permissions for all owners with 3 digits, 1 digit for each owner_ [Absolute vs Symbolic Mode](https://docs.oracle.com/cd/E19455-01/805-7229/6j6q8svd8/)
+- 0 = No permission
+- 1 = Execute
+- 2 = Write
+- 3 = Execute + Write
+- 4 = Read
+- 5 = Read + Execute
+- 6 = Read + Write
+- 7 = Read + Write + Execute
+
+
+- `sudo chmod 777 script.sh` = rwx (Read, Write and Execute) permission for everyone for file 'script.sh'
+- `sudo chmod 740 script.sh` = Give user all permissions (7), give group only read permission (4), give other no permission (0)
+
 
 </details>
 
