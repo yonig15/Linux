@@ -127,13 +127,12 @@ Vim Commands:
 - /etc/passwd
 - /etc/shadow
 - /etc/group
-<br />
-
+<!-- -->
 - `sudo adduser [username]` = Create a new user
 - `sudo passwd [username]` = Change password of a user
 - `su - [username]` = Login as username ('su' = short for substitute or switch user)
 - `su -` = Login as root
-
+<!-- -->
 - `sudo groupadd [groupname]` = Create new group (System assigns next available GID)
 - `sudo adduser [username]` = Switch to Insert Mode
 
