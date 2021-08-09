@@ -88,7 +88,8 @@ SNAP Package Manager:
 <details>
 <summary>Video: Working with Vim Editor</summary>
 
-Install Vim, if it's not available
+
+Install Vim, if it's not available:
 - `sudo apt install vim` = Search for a given package
 
 There are 2 Modes:
