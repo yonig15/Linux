@@ -1,6 +1,4 @@
-This project is for the DevOps Bootcamp for
-
-**Operating Systems & Linux Basics**
+This project is for the DevOps Bootcamp for "Operating Systems & Linux Basics"
 
 
 
@@ -8,10 +6,6 @@ This project is for the DevOps Bootcamp for
 
 <details>
 <summary>Video: Basic Linux Commands (CLI - Part 2)</summary>
-</details>
-
-******
-
 General Operations
 - `clear` = Clears the terminal
 
@@ -63,6 +57,10 @@ Display OS Information
 Execute commands as superuser
 - `sudo [some command]` = Allows regular users to run programs with the security privileges of the superuser or root
 - `su - admin` = Switch from nana user to admin
+</details>
+
+******
+
 
 ***Package Manager - Installing Software on Linux***
 - `sudo apt search [package_name]` = Search for a given package
