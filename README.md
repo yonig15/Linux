@@ -2,10 +2,11 @@ This project is for the DevOps Bootcamp for "Operating Systems & Linux Basics"
 
 
 
-**Commands used in the videos**
+**Commands used in the videos:**
 
 <details>
 <summary>Video: Basic Linux Commands (CLI - Part 2)</summary>
+
 General Operations
 - `clear` = Clears the terminal
 
@@ -61,8 +62,9 @@ Execute commands as superuser
 
 ******
 
+<details>
+<summary>Video: Package Manager - Installing Software on Linux</summary>
 
-***Package Manager - Installing Software on Linux***
 - `sudo apt search [package_name]` = Search for a given package
 - `sudo apt install [package_name]` = Install a given package
 - `sudo apt install [package_name] [package_name2]` = Install multiple packages with one command
@@ -71,5 +73,9 @@ Execute commands as superuser
 - `sudo apt-get install [package_name]` = Install package with apt-get package manager
 
 - `sudo apt update` = Updates the package index. Pulls the latest change sfrom the APT repositories
+</details>
+
+******
+
 
 
