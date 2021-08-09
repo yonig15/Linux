@@ -253,3 +253,31 @@ Different redirects examples/use cases:
 </details>
 
 ******
+
+<details>
+<summary>Video: Environment Variables</summary>
+<br />
+
+_Variables store information. Environment variables are available for the whole environment._
+_An environment variable consists of _name=value_ pair._
+
+Existing Environment Variables:
+- `SHELL=/bin/bash`= default shell program, in this case bash
+- `HOME=/home/nana`= current user's home directory
+- `USER=nana` = currently logged in user
+<!-- -->
+- `printenv` = List all environment variables
+- `printenv | less` = List all environment variables with less program
+- `printenv [environment variable]` = Display value of given environment variable, e.g. `printenv USER`
+- `printenv | grep USER` = Filter environment variables, which have 'USER' in the name
+
+- `echo $USER` = Print value of USER environment variable
+
+Create own Environment Variables:
+- `export DB_USERNAME=dbuser` = Set environment variable 'DB_USERNAME' with value 'dbuser'
+- `export DB_PASSWORD=secretpwdvalue` = Set environment variable 'DB_PASSWORD' with value 'secretpwdvalue'
+
+
+</details>
+
+******
