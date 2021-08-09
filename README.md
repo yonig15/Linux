@@ -211,3 +211,45 @@ _Set permissions for all owners with 3 digits, 1 digit for each owner_ [Absolute
 </details>
 
 ******
+
+<details>
+<summary>Video: Basic Linux Commands - Pipes & Redirects (CLI - Part 3)</summary>
+<br />
+
+**Pipe & Less:**
+
+Pipe Command:
+- `|` = Pipe command = Pipes the output of the previous command as an input to the next command
+
+Less Command:
+- `less [filename]` = Displays the contents of a file or a command output, one page at a time. And allows to navigate forward and backward through the file
+
+Different piping examples/use cases:
+- `cat /var/log/syslog | less` = Pipes the output of 'syslog' file to less program.
+- `ls /usr/bin | less` = Pipes the output of ls command to less program.
+- `history | less` = Pipes the output of history command to less program.
+
+**Pipe & Grep:**
+
+Grep Command:
+- `grep [pattern]` = Searches for a particular pattern of characters and displays all lines that contain that pattern
+
+More piping examples/use cases:
+- `history | grep sudo` = Look for any commands of history commands, which have 'sudo' word in it
+- `history | grep "sudo chmod"` = Look for any commands of history commands, which have 'sudo chmod' phrase in it
+- `history | grep sudo | less` = History output will pass output to grep and filter for 'sudo' and this output will again be piped or passed to less program
+- `ls /usr/bin/ | grep java` = Filter ls output for java
+- `cat Documents/java-app/config.yaml | grep ports` = See all 'ports' occurences in config.yaml file
+
+**Redirects in Linux:**
+- `>` = Redirect Operator = Takes the output from the previous command and sends it to a file that you give
+
+Different redirects examples/use cases:
+- `history | grep sudo > sudo-commands.txt` = Redirect output into a 'sudo-commands.txt' file
+- `cat sudo-commands.txt > sudo-rm-commands.txt` = Redirect output of 'sudo-commands.txt' file into 'sudo-rm-commands.txt' file
+- `history | grep rm > sudo-rm-commands.txt` = Redirect output of filtered history commands into existing 'sudo-rm-commands.txt' file. Note: Contents of file will be _overwritten_
+- `history | grep rm >> sudo-rm-commands.txt` = Redirect output of filtered history commands into existing 'sudo-rm-commands.txt' file. Note: Contents of file will be _appended_
+
+</details>
+
+******
