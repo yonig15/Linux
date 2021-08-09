@@ -165,7 +165,7 @@ Vim Commands:
 - `sudo chown admin test.txt` = Change ownership of 'test.txt' 'admin' user
 - `sudo chgrp devops test.txt` = Make 'devops' group owner of test.txt file
 
-**Possible File Permissions:**
+**Possible File Permissions (Symbolic):**
 - r = Read
 - w = Write
 - x = Execute
