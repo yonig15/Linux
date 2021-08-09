@@ -122,7 +122,7 @@ Vim Commands:
 <details>
 <summary>Video: Linux Accounts & Groups (Users & Permissions Part 1)</summary>
  <br />
-**Locations of Access Control Files:**
+**Locations of Access Control Files:**<br />
 - /etc/passwd
 - /etc/shadow
 - /etc/group
@@ -135,7 +135,7 @@ Vim Commands:
 - `sudo groupadd [groupname]` = Create new group (System assigns next available GID)
 - `sudo adduser [username]` = Switch to Insert Mode
 
-**Note 2 different User/Group commands:**
+**Note 2 different User/Group commands:**<br />
 `adduser`, `addgroup`, `deluser`,  `delgroup` = interactive, more user friendly commands<br />
 `useradd`, `groupadd`,  `userdel`,  `groupdel` = low-level utilities, more infos need provided by yourself
 
