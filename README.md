@@ -153,3 +153,45 @@ Vim Commands:
 
 ******
 
+<details>
+<summary>Video: File Ownership & Permissions (Users & Permissions Part 2)</summary>
+ <br />
+
+- `ls -l` = Print files in a long listing format, you can see ownership and permissions of the file
+
+Ownership:
+- `sudo chown [username]:[groupname] [filename]` = Change ownership
+- `sudo chown tom:admin test.txt` = Change ownership of 'test.txt' file to 'tom' and group 'admin'
+- `sudo chown admin test.txt` = Change ownership of 'test.txt' 'admin' user
+- `sudo chgrp devops test.txt` = Make 'devops' group owner of test.txt file
+
+Possible File Permissions:
+- r = Read
+- w = Write
+- x = Execute
+- - = No permission
+
+**Change File Permissions for different owners**
+
+File Permissions can be changed for:
+- u = Owner
+- g = Group
+- o = Other (all other users)
+
+Minus (-) removes the permission
+- `sudo chmod -x api` = Takes 'execute' permission away for 'api' folder from all owners
+- `sudo chmod g-w config.yaml` = Takes 'write' permission away for 'config.yaml' file from the group 
+
+Plus (+) adds permission
+- `sudo chmod g+x config.yaml` = Add 'execute' permission for 'config.yaml' file to the group 
+- `sudo chmod u+x script.sh` = Add 'execute' permission for 'script.sh' file to the user 
+- `sudo chmod o+x script.sh` = Add 'execute' permission for 'script.sh' file to other 
+
+Change multiple permissions for an owner
+- `sudo chmod g=rwx config.yaml` = Assign 'read write execute' permissions to the group
+- `sudo chmod g=r-- config.yaml` = Assign only 'read' permission to the group
+
+
+</details>
+
+******
