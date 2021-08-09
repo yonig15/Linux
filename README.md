@@ -123,6 +123,7 @@ Vim Commands:
 <summary>Video: Linux Accounts & Groups (Users & Permissions Part 1)</summary>
  <br />
 **Locations of Access Control Files:**<br />
+
 - /etc/passwd
 - /etc/shadow
 - /etc/group
