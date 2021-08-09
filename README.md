@@ -83,8 +83,6 @@ SNAP Package Manager:
 
 ******
 
-******
-
 <details>
 <summary>Video: Working with Vim Editor</summary>
 <br />
