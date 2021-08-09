@@ -128,6 +128,7 @@ Vim Commands:
 - /etc/shadow
 - /etc/group
 
+
 - `sudo adduser [username]` = Create a new user
 - `sudo passwd [username]` = Change password of a user
 - `su - [username]` = Login as username ('su' = short for substitute or switch user)
