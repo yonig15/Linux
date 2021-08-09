@@ -136,7 +136,7 @@ Commands:
 - `sudo groupadd [groupname]` = Create new group (System assigns next available GID)
 - `sudo adduser [username]` = Switch to Insert Mode
 
-`adduser`, `addgroup`, `deluser`,  `delgroup` = interactive, more user friendly commands
+`adduser`, `addgroup`, `deluser`,  `delgroup` = interactive, more user friendly commands<br />
 `useradd`, `groupadd`,  `userdel`,  `groupdel` = low-level utilities, more infos need provided by yourself
 
 - `sudo usermod [OPTIONS] [username]` = Modify a user account
