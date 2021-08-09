@@ -122,8 +122,7 @@ Vim Commands:
 <details>
 <summary>Video: Linux Accounts & Groups (Users & Permissions Part 1)</summary>
  <br />
-**Locations of Access Control Files:**<br />
-
+Locations of Access Control Files:
 - /etc/passwd
 - /etc/shadow
 - /etc/group
