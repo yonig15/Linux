@@ -7,7 +7,8 @@ This project is for the DevOps Bootcamp for "Operating Systems & Linux Basics"
 <details>
 <summary>Video: Basic Linux Commands (CLI - Part 2)</summary>
 <br />
-General Operations
+
+General Operations:
 - `clear` = Clears the terminal
 
 Directory Operatings:
