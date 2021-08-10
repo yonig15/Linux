@@ -323,9 +323,10 @@ echo "group $2"
 
 
 **Executing with script parameters:**
+
 `
-./example.sh name lastname # 2 params
-./example.sh "name lastname" # 1 param
+./example.sh name lastname # 2 params</br>
+./example.sh "name lastname" # 1 param</br>
 bash example name lastname
 `
 
