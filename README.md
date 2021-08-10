@@ -216,10 +216,10 @@ _Set permissions for all owners with 3 digits, 1 digit for each owner_ [Absolute
 <summary>Video: Introduction to Shell Scripting - Part 1 </summary>
  <br />
 
-Create and open setup.sh file in vim editor:
+Create and open setup.sh file in vim editor: <br />
 `vim setup.sh`
 
--- setup.sh file
+In setup.sh file:
 ```sh
 #!/bin/bash
 
@@ -245,7 +245,7 @@ bash setup.sh
  <br />
 
 **Variables:**
-`
+```sh
 #!/bin/bash
 
 echo "Setup and configure server"
@@ -255,10 +255,10 @@ config_files=$(ls config)
 
 echo "using file $file_name to configure something"
 echo "here are all configuration files: $config_files"
-`
+```
 
 **Conditions:**
-`
+```sh
 #!/bin/bash
 
 echo "Setup and configure server"
@@ -298,20 +298,20 @@ fi
 
 echo "using file $file_name to configure something"
 echo "here are all configuration files: $config_files"
-`
+```
 
 **User input:**
-`
+```sh
 #!/bin/bash
 
 echo "Reading user input"
 
 read -p "Please enter your password: " user_pwd
 echo "thanks for your password $user_pwd"
-`
+```
 
 **Script Parameters:**
-`
+```sh
 #!/bin/bash
 
 echo "all params: $*"
@@ -319,18 +319,18 @@ echo "number of params: $#"
 
 echo "user $1"
 echo "group $2"
-`
+```
 
 
 **Executing with parameters:**
-`
+```sh
 ./example.sh name lastname # 2 params
 ./example.sh "name lastname" # 1 param
 bash example name lastname
-`
+```
 
 **Loops:**
-`
+```sh
 #!/bin/bash
 
 echo "all params: $*"
@@ -360,7 +360,7 @@ while true
   sum=$(($sum+$score))
   echo "total score: $sum"
  done
-`
+```
 
 </details>
 
@@ -372,7 +372,7 @@ while true
  <br />
 
 **Functions:**
-`
+```sh
 #!/bin/bash
 
 echo "all params: $*"
@@ -437,7 +437,7 @@ sum 2 10
 result=$?
 
 echo "sum of 2 and 10 is $result"
-`
+```
 
 </details>
 
