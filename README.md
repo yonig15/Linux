@@ -238,7 +238,7 @@ bash setup.sh`
 ******
 
 <details>
-<summary>Video: Shell Scripting - Part 2 - Concepts & Syntax </summary>
+<summary>Video: Shell Scripting Part 2 - Concepts & Syntax </summary>
  <br />
 
 **Variables:**
