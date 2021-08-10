@@ -216,9 +216,11 @@ _Set permissions for all owners with 3 digits, 1 digit for each owner_ [Absolute
 <summary>Video: Introduction to Shell Scripting - Part 1 </summary>
  <br />
 
-`vim setup.sh
+Create and open setup.sh file in vim editor:
+`vim setup.sh`
 
 -- setup.sh file
+```sh
 #!/bin/bash
 
 echo "Setup and configure server"
@@ -231,7 +233,8 @@ chmod u+x setup.sh
 
 # execute script
 ./setup.sh 
-bash setup.sh`
+bash setup.sh
+```
 
 </details>
 
