@@ -322,12 +322,12 @@ echo "group $2"
 ```
 
 
-**Executing with parameters:**
-```sh
+**Executing with script parameters:**
+`
 ./example.sh name lastname # 2 params
 ./example.sh "name lastname" # 1 param
 bash example name lastname
-```
+`
 
 **Loops:**
 ```sh
