@@ -1,6 +1,7 @@
 ### This project is form the [DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) for "Operating Systems & Linux Basics" Module ###
 <br />
 ![Linux Icon for Linux Module](/linux.png "OS & Linux Basics Module")
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" alt="Linux Icon for Linux Module" title="OS & Linux Basics Module">
 
 **Commands used in the videos:**
 
